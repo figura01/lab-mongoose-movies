@@ -1,0 +1,23 @@
+.form.form-new .content-form {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.form.form-new .part-left,
+.form.form-new .part-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.form.form-new .part-left {
+    width: 40%;
+}
+
+.form.form-new .part-right {
+    width: 60%;
+}
+
+.form.form-new .part-right .form-group {
+    height: 100%;
+    margin-bottom: 40px;
+}

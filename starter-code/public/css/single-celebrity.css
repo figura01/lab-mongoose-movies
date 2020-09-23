@@ -1,0 +1,31 @@
+.single-celebrity {}
+
+.single-celebrity .card {
+    width: 300px;
+    margin: 0 auto;
+    background-color: #ddd;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+}
+
+
+.single-celebrity .card p,
+.single-celebrity .card h3 {
+    padding: 10px;
+}
+
+.single-celebrity .card h3 {
+    background-color: black;
+    color: white;
+}
+
+.content-btn {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.single-celebrity .card p q {
+    display: block;
+}

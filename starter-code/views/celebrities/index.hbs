@@ -1,0 +1,38 @@
+<div class="celebrities">
+    <header>
+        <div class="container">
+            <h2>All Celebtities</h2>
+        </div>
+    </header>
+
+    <div class="container">
+        <aside class="menu-action">
+            <a href="/celebrities/new" class="menu-action-item btn btn-new">
+                Add a new
+            </a>
+        </aside>
+        <ul class="list">
+            {{#each celebrities}}
+            <li class="list item">
+
+                <div class="item-content">
+                    <h3>
+                        <a href="/celebrities/{{this._id}}/show">
+                            {{this.name}}
+                        </a>
+                    </h3>
+
+                    <div class="item-actions">
+                        <form action="/celebrities/{{this._id}}/edit" method="GET">
+                            <button class="btn btn-edit" type="submit">Edit</button>
+                        </form>
+                        <form action="/celebrities/{{this._id}}/delete" method="POST">
+                            <button class="btn btn-delete" type="submit">Delete</button>
+                        </form>
+                    </div>
+                </div>
+            </li>
+            {{/each}}
+        </ul>
+    </div>
+</div>

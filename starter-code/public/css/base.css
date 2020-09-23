@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+a:visited,
+a:link,
+a {
+    text-decoration: none;
+    color: #00B7FF;
+}
+
+body {
+    font-family: Avenir, sans-serif;
+}
+
+.btn {
+    padding: 5px 12px;
+    border: 0;
+    border-radius: 3px;
+    color: white;
+    font-weight: 700;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn.btn-edit {
+    background-color: #FFCC00;
+}
+
+.btn.btn-update {
+    background-color: #ff8400;
+}
+
+.btn.btn-delete {
+    background-color: rgb(176, 9, 9);
+}
+
+.btn.btn-send {
+    background-color: #41ae1d;
+}
+
+header {
+    padding: 10px 0;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.form {
+    background-color: #eee;
+    padding: 20px;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form input[type=text] {
+    width: 200px;
+    border: 0;
+    padding: 10px;
+}
+
+.form textarea,
+.form input[type=text] {
+    font-family: Avenir, sans-serif;
+    border-radius: 3px;
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease-in;
+}
+
+.form textarea:focus,
+.form input[type=text]:focus {
+    box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.3);
+    outline: 0;
+}
+
+.form textarea {
+    border: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px 15px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form .btn {
+    font-size: 16px;
+}

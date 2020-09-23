@@ -1,0 +1,41 @@
+
+.celebrities .menu-action {
+    display: flex;
+}
+
+.celebrities .menu-action-item{
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.celebrities .list {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.celebrities .list.item {
+    padding: 20px;
+    background-color: #eee;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    width: 45%;
+    margin: 10px;
+
+    display: flex;
+    justify-content: flex-start;
+}
+
+.celebrities .item-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.celebrities .item-actions {
+    display: flex;
+}
